@@ -78,6 +78,8 @@ nav .nav-ul-member:hover{
   width: 70px;
   position: absolute;
   left: -35px;
+
+  
  
 }
 #overMenu2{
@@ -169,4 +171,25 @@ footer{
 article{
   position: relative;
   top: 170px;
+}
+#login { 
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  float: right;
+  right: 150px;
+  cursor: pointer;
+}
+#join{
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+  width: 70px;
+  height: 30px;
+  background-color: palevioletred;
+  position: relative;
+  float: right;
+  cursor: pointer;
 }

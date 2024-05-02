@@ -116,7 +116,7 @@ function loadHTML(id){
     const target = document.getElementById("article");
     target.innerHTML = '';
     fetch(html)
-        .then(respone => Response.text())
+        .then(response => response.text())
         .then(content => {
             target.innerHTML = content;
             const script = document.createElement('script');
@@ -125,4 +125,3 @@ function loadHTML(id){
             document.head.appendChild(script);
         }) 
 }
-
